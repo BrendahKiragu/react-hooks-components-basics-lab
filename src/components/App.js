@@ -23,6 +23,12 @@ function Home() {
 // }
 const About = () => <div><a id="about">About</a></div>
 
+// class About extends React.Component {
+//   render (){
+//     return <div><a id="about">About</a></div>
+//   }
+// }
+
 
 function App() {
   return (
