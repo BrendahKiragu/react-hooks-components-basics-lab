@@ -17,14 +17,19 @@ function Home() {
 }
 
 {/* write an <About> component here */}
+// function About (){
+//   return <div> <a id="about">About</a>
+//   </div>
+// }
+const About = () => <div><a id="about">About</a></div>
 
 
 function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+      <Home/>
+      <About/>
     </div>
   );
 }
